@@ -1,0 +1,91 @@
+{
+  "name": "Music Share Web App - AI Audio Enhancement",
+  "short_name": "MusicShare",
+  "description": "AI-powered music player with local file access, audio enhancement, and professional EQ",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#764ba2",
+  "orientation": "any",
+  "categories": ["music", "entertainment", "utilities"],
+  "lang": "en",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./assets/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Music Share Web App - Desktop View"
+    },
+    {
+      "src": "./assets/screenshot-narrow.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Music Share Web App - Mobile View"
+    }
+  ],
+  "features": [
+    "AI Audio Enhancement",
+    "10-Band Parametric EQ",
+    "DAC Simulation",
+    "Pre-Amplifier Controls",
+    "100GB+ File Support",
+    "Local File Access",
+    "Real-time Audio Visualizer",
+    "Multiple Audio Formats",
+    "Drag & Drop Interface",
+    "PWA Support"
+  ]
+}
