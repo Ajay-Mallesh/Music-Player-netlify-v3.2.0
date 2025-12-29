@@ -1,9 +1,12 @@
+# Netlify - Web Host : Main Website : https://ajaymallesh-web-musicplayer-withai.netlify.app/
+# Github Pagees : Backup Player : https://ajay-mallesh.github.io/Music-Player-Github-Pages-v3.2.0/
+
 # 🎵 Music Share Web App - AI Audio Enhancement & Professional Music Player
 
 A **powerful, feature-rich web-based music player** with AI audio enhancement, real-time waveform analysis, professional EQ, and advanced music library management.
 
-**Version:** 3.1.0  
-**Last Updated:** December 24, 2025  
+**Version:** 3.2.0  
+**Last Updated:** December 29, 2025  
 **License:** MIT
 
 ---
@@ -241,8 +244,12 @@ Organize and clean your music:
 - ✅ **Console Logging** - Detailed debug information
 
 ---
+### 🎯 What's NEW in v3.2.0 (current) ⭐
 
-### 🎯 What's NEW in v3.1.0 (current) ⭐
+- ✅ **Added : Visitor counter using own database (supa base)**
+- ✅ **Added : Backup Music player Hosted using Github Pages**
+
+### 🎯 What's NEW in v3.1.0 
 
 - ✅ **Added : Visitor counter using web API**
 - ✅ **Added : Report Bug option**
@@ -601,6 +608,15 @@ Result: Clean, powerful bass without distortion! 🔊
 - ✅ **FIXED: Audio distortion in presets**
 - ✅ **FIXED: Super Bass clipping issue**
 - ✅ **Corrected method name** - `createMediaElementSource()` ✅
+- ✅ **Proper audio chain implementation** - No EQ bypass
+- ✅ **All presets rebalanced** - Distortion-free playback
+- ✅ **Maximum gain capped** - Safe levels across all presets
+- ✅ **Updated README** - Complete documentation
+
+### v2.6.0 MAJOR BUG FIX
+- ✅ **FIXED: Audio distortion in presets**
+- ✅ **FIXED: Super Bass clipping issue**
+- ✅ **Corrected method name** - \`createMediaElementSource()\` ✅
 - ✅ **Proper audio chain implementation** - No EQ bypass
 - ✅ **All presets rebalanced** - Distortion-free playback
 - ✅ **Maximum gain capped** - Safe levels across all presets

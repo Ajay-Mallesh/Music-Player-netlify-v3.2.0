@@ -473,7 +473,7 @@
             <h1 class="title">🎵 Web Based Music Player | ಜಾಲತಾಣ ಸಂಗೀತ ವಾದಕ </h1>
             <p class="subtitle">Local File Access with 100GB+ Support</p>
             <p style="margin: 0 0 5px 0; font-size: 0.95em;">
-                <a class="style-changer" href="https://ajay-mallesh.github.io/Music-Player-v3.1.0/" style="color: #06e724; text-decoration: none;font-style: oblique;scrollbar-highlight-color: #ffd700;"><span class="blinking-emoji">👉</span> 🎵 Music Player (Backup website)</a>
+                <a class="style-changer" href="https://ajay-mallesh.github.io/Music-Player-Github-Pages-v3.2.0/" style="color: #06e724; text-decoration: none;font-style: oblique;scrollbar-highlight-color: #ffd700;"><span class="blinking-emoji">👉</span> 🎵 Music Player (Backup website)</a>
             </p>
         </div>
 
@@ -1142,7 +1142,7 @@
                         <!-- <a href="#" style="color: #87ceeb; text-decoration: none;">🎵 Music Player (Backup website)</a> |  -->
                     </p>
                     <p style="margin: 0 0 5px 0; font-size: 0.95em;">
-                        <a href="https://ajay-mallesh.github.io/Music-Player-v3.1.0/" style="color: #87ceeb; text-decoration: none;">🎵 Music Player (Backup website)</a>
+                        <a href="https://ajay-mallesh.github.io/Music-Player-Github-Pages-v3.2.0/" style="color: #87ceeb; text-decoration: none;">🎵 Music Player (Backup website)</a>
                     </p>
                     <p style="margin: 0; font-size: 0.95em;">
                         <button onclick="showTutorial()" style="background: rgba(255,255,255,0.1); color: #87ceeb; border: 1px solid #87ceeb; padding: 5px 15px; border-radius: 4px; cursor: pointer; font-size: 0.9em; transition: all 0.3s ease; font-weight: 500;" onmouseover="this.style.background='rgba(135,206,235,0.2)'; this.style.boxShadow='0 0 10px rgba(135,206,235,0.4)';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.boxShadow='none';">📖 Tutorial</button>
@@ -1154,7 +1154,7 @@
                     <p style="margin: 0 0 8px 0; font-size: 1em;"><strong>🌐 Connect & Support</strong></p>
                     <p style="margin: 5px 0; font-size: 0.9em;">
                         <a href="#" style="color: #87ceeb; text-decoration: none;">🎵 Music Player</a> | 
-                        <a href="https://github.com/Ajay-Mallesh/Music-Player-v3.1.0" style="color: #87ceeb; text-decoration: none;">🐙 GitHub</a>
+                        <a href="https://ajay-mallesh.github.io/Music-Player-Github-Pages-v3.2.0/" style="color: #87ceeb; text-decoration: none;">🐙 GitHub</a>
                     </p>
                     <p style="margin: 5px 0; font-size: 0.85em; opacity: 0.9;">
                         📧 <a href="mailto:ajaynew96326@gmail.com" style="color: #87ceeb; text-decoration: none;">ajaynew96326@gmail.com</a> | 
@@ -1162,84 +1162,84 @@
                     </p>
                 </div>
                 
-                <!-- Visitor Counter (Right) -->
-                <!-- <div style="text-align: right; flex: 1;">
-                    <p style="margin: 0; font-size: 0.95em; color: #ffd700; border: 2px solid #ffd700; padding: 8px 15px; border-radius: 6px; display: inline-block; font-family: 'Courier New', monospace; white-space: nowrap;">visitors count : { <span id="visitorCount">0000</span> }</p>
-                </div> -->
+                    <!-- Visitor Counter (Right) -->
+                    <!-- <div style="text-align: right; flex: 1;">
+                        <p style="margin: 0; font-size: 0.95em; color: #ffd700; border: 2px solid #ffd700; padding: 8px 15px; border-radius: 6px; display: inline-block; font-family: 'Courier New', monospace; white-space: nowrap;">visitors count : { <span id="visitorCount">0000</span> }</p>
+                    </div> -->
 
-                <!-- Visitor Counter (Right) -->
-                <div style="text-align: right; flex: 1;">
-                <p style="margin: 0; font-size: 0.95em; color: #ffd700; border: 2px solid #ffd700; padding: 8px 15px; border-radius: 6px; display: inline-block; font-family: 'Courier New', monospace; white-space: nowrap;">
-                    visitors count : { <span id="visitorCount">0000</span> }
-                </p>
-                </div>
+                    <!-- Visitor Counter (Right) -->
+                    <div style="text-align: right; flex: 1;">
+                    <p style="margin: 0; font-size: 0.95em; color: #ffd700; border: 2px solid #ffd700; padding: 8px 15px; border-radius: 6px; display: inline-block; font-family: 'Courier New', monospace; white-space: nowrap;">
+                        visitors count : { <span id="visitorCount">0000</span> }
+                    </p>
+                    </div>
 
-                <script type="module">
-                import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+                    <script type="module">
+                    import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-                // Replace with your Supabase project URL and anon key
-                const supabaseUrl = "https://bcrpzguugdypnzlzwyxg.supabase.co";
-                const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJjcnB6Z3V1Z2R5cG56bHp3eXhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcwMDI3ODksImV4cCI6MjA4MjU3ODc4OX0.a7sN6hLaob4qH1MH-VMZrRGCPrhQPaZQzp0GmZmmOCQ"; 
-                const supabase = createClient(supabaseUrl, supabaseKey);
+                    // Replace with your Supabase project URL and anon key
+                    const supabaseUrl = "https://bcrpzguugdypnzlzwyxg.supabase.co";
+                    const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJjcnB6Z3V1Z2R5cG56bHp3eXhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcwMDI3ODksImV4cCI6MjA4MjU3ODc4OX0.a7sN6hLaob4qH1MH-VMZrRGCPrhQPaZQzp0GmZmmOCQ"; 
+                    const supabase = createClient(supabaseUrl, supabaseKey);
 
-                async function initVisitorCounter() {
-                    // Shared key for both domains
-                    const domain = "musicplayer-global";
+                    async function initVisitorCounter() {
+                        // Shared key for both domains
+                        const domain = "musicplayer-global";
 
-                    let { data, error } = await supabase
-                    .from("visitors")
-                    .select("*")
-                    .eq("domain", domain)
-                    .single();
-
-                    if (error && error.code === "PGRST116") {
-                    // First time → insert new row
-                    let { data: newData } = await supabase
+                        let { data, error } = await supabase
                         .from("visitors")
-                        .insert([{ domain, count: 1 }])
-                        .select()
-                        .single();
-                    data = newData;
-                    } else if (data) {
-                    // Increment count
-                    let { data: updatedData } = await supabase
-                        .from("visitors")
-                        .update({ count: data.count + 1 })
+                        .select("*")
                         .eq("domain", domain)
-                        .select()
                         .single();
-                    data = updatedData;
-                    }
 
-                    // Update UI
-                    const visitorElement = document.getElementById("visitorCount");
-                    if (visitorElement && data) {
-                    visitorElement.textContent = String(data.count).padStart(4, "0");
-                    }
-
-                    console.log(`👥 Combined Visitors: ${data?.count}`);
-                }
-
-                // Realtime subscription for the global counter
-                supabase
-                    .channel("visitor-changes")
-                    .on(
-                    "postgres_changes",
-                    { event: "UPDATE", schema: "public", table: "visitors", filter: "domain=eq.musicplayer-global" },
-                    (payload) => {
-                        const visitorElement = document.getElementById("visitorCount");
-                        if (visitorElement) {
-                        visitorElement.textContent = String(payload.new.count).padStart(4, "0");
+                        if (error && error.code === "PGRST116") {
+                        // First time → insert new row
+                        let { data: newData } = await supabase
+                            .from("visitors")
+                            .insert([{ domain, count: 1 }])
+                            .select()
+                            .single();
+                        data = newData;
+                        } else if (data) {
+                        // Increment count
+                        let { data: updatedData } = await supabase
+                            .from("visitors")
+                            .update({ count: data.count + 1 })
+                            .eq("domain", domain)
+                            .select()
+                            .single();
+                        data = updatedData;
                         }
-                        console.log("🔄 Realtime update:", payload.new);
-                    }
-                    )
-                    .subscribe();
 
-                document.addEventListener("DOMContentLoaded", () => {
-                    initVisitorCounter();
-                });
-                </script>
+                        // Update UI
+                        const visitorElement = document.getElementById("visitorCount");
+                        if (visitorElement && data) {
+                        visitorElement.textContent = String(data.count).padStart(4, "0");
+                        }
+
+                        console.log(`👥 Combined Visitors: ${data?.count}`);
+                    }
+
+                    // Realtime subscription for the global counter
+                    supabase
+                        .channel("visitor-changes")
+                        .on(
+                        "postgres_changes",
+                        { event: "UPDATE", schema: "public", table: "visitors", filter: "domain=eq.musicplayer-global" },
+                        (payload) => {
+                            const visitorElement = document.getElementById("visitorCount");
+                            if (visitorElement) {
+                            visitorElement.textContent = String(payload.new.count).padStart(4, "0");
+                            }
+                            console.log("🔄 Realtime update:", payload.new);
+                        }
+                        )
+                        .subscribe();
+
+                    document.addEventListener("DOMContentLoaded", () => {
+                        initVisitorCounter();
+                    });
+                    </script>
 
             </div>
             
@@ -1692,131 +1692,121 @@ window.addEventListener('load', checkAudioContextSupport);
                 if (btn) btn.classList.add('active');
             }
         }
-
         // Visitor Counter - Using CountAPI (Free web-based API)
         // Works globally across all browsers and devices
-        // function initVisitorCounter() {
-        //     const counterEndpoint = 'https://api.countapi.xyz/hit/ajaymallesh-musicplayer/visits';
+        function initVisitorCounter() {
+            const counterEndpoint = 'https://api.countapi.xyz/hit/ajaymallesh-musicplayer/visits';
             
-        //     fetch(counterEndpoint)
-        //         .then(response => response.json())
-        //         .then(data => {
-        //             const visitorCount = data.value;
-        //             const visitorElement = document.getElementById('visitorCount');
+            fetch(counterEndpoint)
+                .then(response => response.json())
+                .then(data => {
+                    const visitorCount = data.value;
+                    const visitorElement = document.getElementById('visitorCount');
                     
-        //             if (visitorElement) {
-        //                 // Format with leading zeros (0000, 0001, 0002, etc.)
-        //                 const formattedCount = String(visitorCount).padStart(4, '0');
-        //                 visitorElement.textContent = formattedCount;
-        //             }
+                    if (visitorElement) {
+                        // Format with leading zeros (0000, 0001, 0002, etc.)
+                        const formattedCount = String(visitorCount).padStart(4, '0');
+                        visitorElement.textContent = formattedCount;
+                    }
                     
-        //             console.log(`👥 Total Global Visitors: ${visitorCount}`);
-        //         })
-        //         .catch(error => {
-        //             console.error('❌ Error fetching visitor count:', error);
-        //             // Fallback to localStorage if API fails
-        //             const VISITOR_KEY = 'musicPlayerVisitors';
-        //             let visitorCount = localStorage.getItem(VISITOR_KEY);
+                    console.log(`👥 Total Global Visitors: ${visitorCount}`);
+                })
+                .catch(error => {
+                    console.error('❌ Error fetching visitor count:', error);
+                    // Fallback to localStorage if API fails
+                    const VISITOR_KEY = 'musicPlayerVisitors';
+                    let visitorCount = localStorage.getItem(VISITOR_KEY);
                     
-        //             if (!visitorCount) {
-        //                 visitorCount = 1;
-        //             } else {
-        //                 visitorCount = parseInt(visitorCount) + 1;
-        //             }
+                    if (!visitorCount) {
+                        visitorCount = 1;
+                    } else {
+                        visitorCount = parseInt(visitorCount) + 1;
+                    }
                     
-        //             localStorage.setItem(VISITOR_KEY, visitorCount);
+                    localStorage.setItem(VISITOR_KEY, visitorCount);
                     
-        //             const visitorElement = document.getElementById('visitorCount');
-        //             if (visitorElement) {
-        //                 const formattedCount = String(visitorCount).padStart(4, '0');
-        //                 visitorElement.textContent = formattedCount;
-        //             }
+                    const visitorElement = document.getElementById('visitorCount');
+                    if (visitorElement) {
+                        const formattedCount = String(visitorCount).padStart(4, '0');
+                        visitorElement.textContent = formattedCount;
+                    }
                     
-        //             console.log(`👥 Local Visitors (API Fallback): ${visitorCount}`);
-        //         });
-        // }
-
-        // // Initialize on page load
-        // document.addEventListener('DOMContentLoaded', function() {
-        //     console.log('🎵 Music App Initializing...');
-        //     audioPlayer = document.getElementById('audioPlayer');
-            
-        //     // Initialize visitor counter
-        //     initVisitorCounter();
-            
-        //     if (!audioPlayer) {
-        //         console.error('❌ Audio player not found');
-        //         return;
-        //     }
-            
-        //     audioPlayer.addEventListener('play', () => {
-        //         isPlaying = true;
-        //         updatePlayPauseButton();
-        //     });
-            
-        //     audioPlayer.addEventListener('pause', () => {
-        //         isPlaying = false;
-        //         updatePlayPauseButton();
-        //     });
-            
-        //     audioPlayer.addEventListener('timeupdate', updateProgress);
-        //     audioPlayer.addEventListener('ended', handleTrackEnd);
-            
-        //     updatePlayPauseButton();
-        //     console.log('✅ Audio player setup complete');
-        // });
-
-        // // Initialize on first click
-        // document.addEventListener('click', () => {
-        //     ensureAudioInitialized();
-        // }, { once: false });
-
-        // // LocalStorage Functions for Persistence | Newly Added 21/11/2025
-        // const STORAGE_KEY = 'musicLibraryCache';
-
-        // // Save to localStorage with deduplication
-        // function saveMusicLibraryToStorage() {
-        //     try {
-        //         // Create unique library by filename + size + format
-        //         const uniqueLibrary = [];
-        //         const seen = new Set();
-
-        //         musicLibrary.forEach(track => {
-        //             const key = `${track.name}|${track.size}|${track.format}`;
-                    
-        //             if (!seen.has(key)) {
-        //                 seen.add(key);
-        //                 uniqueLibrary.push({
-        //                     name: track.name,
-        //                     title: track.title,
-        //                     artist: track.artist,
-        //                     album: track.album,
-        //                     duration: track.duration,
-        //                     size: track.size,
-        //                     format: track.format,
-        //                     bitrate: track.bitrate,
-        //                     sampleRate: track.sampleRate,
-        //                     bitDepth: track.bitDepth,
-        //                     isHiRes: track.isHiRes
-        //                 });
-        //             }
-        //         });
-
-        //         localStorage.setItem(STORAGE_KEY, JSON.stringify(uniqueLibrary));
-        //         console.log('💾 Music library metadata saved to localStorage:', uniqueLibrary.length, 'unique tracks');
-        //     } catch (error) {
-        //         console.warn('⚠️ LocalStorage save failed (might be full):', error);
-        //     }
-        // }
-
-        // Visitor Counter - Using 6developer Visitor API (Free web-based API) - Added 29/12/2025
-
-        
-
+                    console.log(`👥 Local Visitors (API Fallback): ${visitorCount}`);
+                });
+        }
 
         // Initialize on page load
-        document.addEventListener("DOMContentLoaded", initVisitorCounter);
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🎵 Music App Initializing...');
+            audioPlayer = document.getElementById('audioPlayer');
+            
+            // Initialize visitor counter
+            initVisitorCounter();
+            
+            if (!audioPlayer) {
+                console.error('❌ Audio player not found');
+                return;
+            }
+            
+            audioPlayer.addEventListener('play', () => {
+                isPlaying = true;
+                updatePlayPauseButton();
+            });
+            
+            audioPlayer.addEventListener('pause', () => {
+                isPlaying = false;
+                updatePlayPauseButton();
+            });
+            
+            audioPlayer.addEventListener('timeupdate', updateProgress);
+            audioPlayer.addEventListener('ended', handleTrackEnd);
+            
+            updatePlayPauseButton();
+            console.log('✅ Audio player setup complete');
+        });
 
+        // Initialize on first click
+        document.addEventListener('click', () => {
+            ensureAudioInitialized();
+        }, { once: false });
+
+        // LocalStorage Functions for Persistence | Newly Added 21/11/2025
+        const STORAGE_KEY = 'musicLibraryCache';
+
+        // Save to localStorage with deduplication
+        function saveMusicLibraryToStorage() {
+            try {
+                // Create unique library by filename + size + format
+                const uniqueLibrary = [];
+                const seen = new Set();
+
+                musicLibrary.forEach(track => {
+                    const key = `${track.name}|${track.size}|${track.format}`;
+                    
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        uniqueLibrary.push({
+                            name: track.name,
+                            title: track.title,
+                            artist: track.artist,
+                            album: track.album,
+                            duration: track.duration,
+                            size: track.size,
+                            format: track.format,
+                            bitrate: track.bitrate,
+                            sampleRate: track.sampleRate,
+                            bitDepth: track.bitDepth,
+                            isHiRes: track.isHiRes
+                        });
+                    }
+                });
+
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(uniqueLibrary));
+                console.log('💾 Music library metadata saved to localStorage:', uniqueLibrary.length, 'unique tracks');
+            } catch (error) {
+                console.warn('⚠️ LocalStorage save failed (might be full):', error);
+            }
+        }
 
         // Newly Added 21/11/2025
         // Load from localStorage
@@ -4911,6 +4901,26 @@ Result: Clean, powerful bass without distortion! 🔊
 
 ## 📝 Version History
 
+###  v3.2.0 (current) ⭐ - 29 December 2025
+
+- ✅ **Added : Visitor counter using own database (supa base)**
+- ✅ **Added : Backup Music player Hosted using Github Pages**
+
+### v3.1.0 - 24 Decmber 2025
+
+- ✅ **Added : Visitor counter using web API**
+- ✅ **Added : Report Bug option**
+- ✅ **Added : Tutorial button to get understand working**
+
+### v3.0.0 ⭐ MAJOR BUG FIX
+- ✅ **FIXED: Audio distortion in presets**
+- ✅ **FIXED: Super Bass clipping issue**
+- ✅ **Corrected method name** - \`createMediaElementSource()\` ✅
+- ✅ **Proper audio chain implementation** - No EQ bypass
+- ✅ **All presets rebalanced** - Distortion-free playback
+- ✅ **Maximum gain capped** - Safe levels across all presets
+- ✅ **Updated README** - Complete documentation
+
 ### v2.6.0 (Current) ⭐ MAJOR BUG FIX
 - ✅ **FIXED: Audio distortion in presets**
 - ✅ **FIXED: Super Bass clipping issue**
@@ -5001,8 +5011,8 @@ MIT License - See \`LICENSE.txt\` for details
 **Enjoy your music! 🎵**
 * Made by AjayMallesh with ❤️ *
 * ❤️ Made with love for audiophiles *
-*Last Updated: December 24, 2025*
-* v3.1.0 *
+*Last Updated: December 29, 2025*
+* v3.2.0 *
 *🎯 All audio distortion issues FIXED! Distortion-free playback guaranteed! ✅*`;
 
         function showTutorial() {
@@ -5640,9 +5650,6 @@ MIT License - See \`LICENSE.txt\` for details
         window.addEventListener('load', () => {
             console.log('💡 Type debugAudio() in console to debug audio files');
         });
-
-
-        
 
     </script>
 </body>
